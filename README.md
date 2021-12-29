@@ -1,2 +1,2 @@
 # Project-2
- Mobile First Responsive Layour
+ Mobile First Responsive Layout
