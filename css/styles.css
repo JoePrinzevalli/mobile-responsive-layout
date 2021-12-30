@@ -1,0 +1,38 @@
+* {
+    font-family: 'Quicksand', sans-serif;
+}
+header {
+background-color: greenyellow;
+}
+h2, h3 {
+    margin-top: 20px;
+    text-align: center;
+}
+img {
+    width: 300px;
+    margin: auto;
+    display: block;
+}
+.profile {
+    width:200px;
+    margin: auto;
+    display: block;
+}
+p {
+    text-align: center;
+}
+.contact {
+    block-size: auto;
+    text-align: center;
+    
+}
+a {
+    text-decoration: none;
+    color: gray;
+
+}
+.end {
+    background-color: greenyellow;
+}
+
+

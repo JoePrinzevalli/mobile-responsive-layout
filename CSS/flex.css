@@ -1,0 +1,21 @@
+header {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+ul li {
+display: flex;
+flex-direction: column;
+background-color: white;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+footer {
+    display: flex;
+    justify-content: space-between;
+}
