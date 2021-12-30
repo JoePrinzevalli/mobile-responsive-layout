@@ -1,7 +1,4 @@
-/* header {
-    display: flex;
-    flex-direction: column;
-} */
+
 ul li {
 display: flex;
 flex-direction: column;
@@ -33,11 +30,13 @@ footer {
       margin: 0 auto;
       padding: 0;  
     }
-    .white {
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        flex-grow: 1;
-        
-    }
+    
+  .container {
+      display: flex;
+      flex-direction: column;
+  }
+  .item {
+      flex-wrap: wrap;
+  }
+   
 }

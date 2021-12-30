@@ -5,7 +5,7 @@ header, .end {
     width: 100vw;
     margin-top: 0;
 }
-.white {
+.container {
     background-color: white;
 }
 body {
