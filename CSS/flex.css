@@ -6,7 +6,7 @@ ul li {
 display: flex;
 flex-direction: column;
 margin: 5px;
-padding: 5px 20px;
+padding: 10px 20px;
 background: white;
 text-transform: uppercase;
 text-align: center;
@@ -20,4 +20,24 @@ text-align: center;
 footer {
     display: flex;
     justify-content: space-between;
+}
+
+/* Media Queries */
+@media screen and (min-width: 768px) {
+    header {
+        display: flex;
+        flex-direction: column;
+    }
+    ul li {
+      flex-direction: row;
+      margin: 0 auto;
+      padding: 0;  
+    }
+    .white {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        flex-grow: 1;
+        
+    }
 }

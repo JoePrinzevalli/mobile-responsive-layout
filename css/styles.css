@@ -2,41 +2,58 @@
     font-family: 'Quicksand', sans-serif;
 }
 header, .end {
-background-color: #f8f8ff		;
+    width: 100vw;
+    margin-top: 0;
 }
-h1, h2, h3 {
+.white {
+    background-color: white;
+}
+body {
+    margin: 0;
+    background-color: #f5f5f5;
+}
+h3 {
     margin-top: 20px;
     text-align: center;
 }
+h1 {
+    padding: 2rem;
+    text-align: center;
+    font-weight: bold;
+}
 h2 {
     font-size: 16px;
+    margin: 50px 0 30px 0;
+    text-align: center;
 }
 ul {
     padding: 0;
+    font-weight: bold;
 }
 img {
-    width: 300px;
-    margin: auto;
+    width: 280px;
+    margin: 30px 20px;
     display: block;
 }
 .profile {
-    width:200px;
-    margin-top: 30px;
+    width: 200px;
+    margin: 30px 60px;
     display: block;
 }
 p {
     text-align: center;
 }
+
 .contact {
     block-size: auto;
-    text-align: center;
-    
+    text-align: center;  
 }
 a {
     text-decoration: none;
-    color: gray;
-
+    color: black;
 }
-
+footer {
+    border-top: 2px solid darkgrey;
+}
 
 
