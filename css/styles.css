@@ -51,6 +51,7 @@ p {
 a {
     text-decoration: none;
     color: black;
+    font-weight: bold;
 }
 footer {
     border-top: 2px solid darkgrey;

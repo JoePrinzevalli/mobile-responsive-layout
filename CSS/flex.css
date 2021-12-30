@@ -25,9 +25,11 @@ footer {
   .start {
       display: flex;
       flex-direction: column;
+      
   }  
-  .list{
-
+  .list {
+      background: none;
+      
   }
   .container {
       display: flex;
@@ -35,6 +37,12 @@ footer {
   }
   .item {
       width: 50%;
+      margin: center;
   }
-   
+  img {
+    width: 360px; 
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  
 }
