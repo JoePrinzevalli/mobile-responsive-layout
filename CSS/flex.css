@@ -1,14 +1,16 @@
-header {
+/* header {
     display: flex;
     flex-direction: column;
-    text-align: center;
-}
+} */
 ul li {
 display: flex;
 flex-direction: column;
-background-color: white;
+margin: 5px;
+padding: 5px 20px;
+background: white;
+text-transform: uppercase;
+text-align: center;
 }
-
 .contact {
     display: flex;
     flex-direction: column;
