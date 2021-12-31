@@ -83,8 +83,8 @@ footer {
     .main-nav {
         display: flex;
     }
-    .main-nav {
-        /* flex-direction: row; */
+    .main-header {
+        flex-direction: row;
     }  
     .container {
         display: flex;
