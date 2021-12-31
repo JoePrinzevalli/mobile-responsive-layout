@@ -69,4 +69,12 @@ footer {
       margin-top: 0;
       margin-bottom: 40px;
   }
+  #portfolio {
+    block-size: auto;
+    position: relative;
+    margin-top: 150px;
+    text-align: center;
+    top: 250px;
+    
+}
 }
