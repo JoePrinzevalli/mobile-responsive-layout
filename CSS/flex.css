@@ -88,9 +88,9 @@ footer {
     .main-header {
         display: flex;
         flex-direction: row;
-        justify-content: space-between;
     }  
     .start {
+        display: flex;
         flex-direction: row;
     }
     .container {
