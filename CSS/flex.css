@@ -76,5 +76,25 @@ footer {
     text-align: center;
     top: 250px;
     
+    }
 }
+@media screen and (min-width: 1024px) {
+    .main-header,
+    .main-nav {
+        display: flex;
+    }
+    .main-nav {
+        /* flex-direction: row; */
+    }  
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 300px;
+        
+    }
+    .item {
+        width: 33%;
+        justify-content: center;
+        align-items: center;
+    }
 }
