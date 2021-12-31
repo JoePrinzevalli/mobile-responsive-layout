@@ -80,7 +80,8 @@ footer {
 }
 @media screen and (min-width: 1024px) {
     .main-header,
-    .main-nav {
+    .main-nav,
+    .start {
         display: flex;
     }
     .main-header {
@@ -97,4 +98,9 @@ footer {
         justify-content: center;
         align-items: center;
     }
+    .profile {
+        position: relative;
+        top: -60px; 
+    }
+  
 }
