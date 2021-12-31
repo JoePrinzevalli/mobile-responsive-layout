@@ -85,14 +85,14 @@ footer {
     }
 }
 @media screen and (min-width: 1024px) {
-    .main-header,
-    .main-nav,
-    .start {
-        display: flex;
-    }
     .main-header {
+        display: flex;
         flex-direction: row;
+        justify-content: space-between;
     }  
+    .start {
+        flex-direction: row;
+    }
     .container {
         display: flex;
         flex-wrap: wrap;
@@ -108,7 +108,15 @@ footer {
         position: relative;
         top: -60px; 
     }
-  #portfolio {
-   text-align: center;
+    #portfolio {
+        block-size: none;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+  }
+    img {
+      width: 300px;
+      margin-left: auto;
+      margin-right: auto;
   }
 }
