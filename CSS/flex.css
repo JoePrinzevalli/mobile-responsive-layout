@@ -24,9 +24,15 @@ footer {
     .full-text {
         display: none;
     }
+    
 }
 @media screen and (min-width: 768px) {
-
+   .box-p {
+        box-sizing: border-box;
+        font-size: 18px;
+        text-align: left;
+        margin-left: 15px;
+    }
   .start {
       display: flex;
       justify-content: center; 
@@ -37,7 +43,7 @@ footer {
   }
   .profile {
       float: right;
-      margin-top: 20px;
+      margin-top: 5px;
       text-align: left;
       width: 250px;
   }
@@ -94,6 +100,12 @@ footer {
         flex-direction: row;
         flex: 1;
     } */
+    .box-p{
+        box-sizing: border-box;
+        font-size: 18px;
+        text-align: left;
+        margin-left: 15px;
+    }
     .flex {
         display: flex;
         justify-content: space-between;
@@ -113,7 +125,7 @@ footer {
         display: flex;
         flex-wrap: wrap;
         margin-top: 300px;
-        
+        flex: 1;
     }
     .item {
         width: 33%;
@@ -122,13 +134,12 @@ footer {
     }
     .profile {
         position: relative;
-        top: -60px; 
+        top: -30px; 
     }
     #portfolio {
-        block-size: none;
-        text-align: center;
         margin-left: auto;
         margin-right: auto;
+        width: 50%;
   }
     img {
       width: 300px;
