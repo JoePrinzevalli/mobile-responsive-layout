@@ -9,8 +9,54 @@ header, .end {
     background-color: white;
 }
 body {
-    margin: 0;
+    margin: auto;
+    max-width: 100%;
     background-color: #f5f5f5;
+}
+/* .profile {
+    width: 200px;
+    margin: 30px 60px;
+    display: block;
+} */
+.flex-profile {
+    display: flex;
+    flex-direction: column;
+}
+.profile {
+    margin: auto;
+    max-width: 50%;
+}
+
+.flex-portfolio {
+    display: flex;
+    justify-content: space-around;
+}
+/* img {
+    width: 280px;
+    margin: 30px 20px;
+    display: block;
+    border: 3px solid black;
+} */
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+img {
+    max-width: 90%; 
+}                      /* not too sure why img and .item center the images */
+.item {
+    text-align: center;  
+}
+.image-7 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.skills-img {
+max-width: 90%;
 }
 
 h3 {
@@ -44,23 +90,6 @@ ul li {
     font-size: 12px;
     color: olive;
 }
-.name {
-    margin-top: 16px;
-    margin-left: 20px;
-    font-size: 12px;
-    font-weight: bold;
-}
-img {
-    width: 280px;
-    margin: 30px 20px;
-    display: block;
-    border: 3px solid black;
-}
-.profile {
-    width: 200px;
-    margin: 30px 60px;
-    display: block;
-}
 p {
     text-align: center;
 }
@@ -86,6 +115,12 @@ a {
     margin-right: 20px;
     font-size: 12px;
 }
+.name {
+    margin-top: 16px;
+    margin-left: 20px;
+    font-size: 12px;
+    font-weight: bold;
+}
 footer {
     border-top: 2px solid darkgrey;
     display: flex;
@@ -99,69 +134,56 @@ footer {
 /* Media Queries */
 
 @media screen and (min-width: 768px) {
-   .box-p {
-        box-sizing: border-box;
-        font-size: 18px;
-        text-align: left;
-        margin-left: 15px;
+    .start {
+        display: flex;
+        justify-content: center; 
+        margin-bottom: 40px;
+    }  
+    .list {
+        background: none; 
     }
-  .start {
-      display: flex;
-      justify-content: center; 
-      margin-bottom: 50px;
-  }  
-  .list {
-      background: none; 
-  }
-  .flex-profile {
-      display: flex;
-      justify-content: space-evenly;
-  }
-  .profile {
-      order: 2;
-  }
-  .container {
+    .flex-profile {
+        display: flex;
+        flex-direction: row;
+    }
+    .box-p {
+        font-size: 16px;
+        text-align: left;
+        margin-left: 20px;
+    }
+    .profile {
+        order: 2;
+        margin: 0 20px 20px 10px;
+        width: 30%;
+
+    }
+    .container {
       display: flex;
       flex-wrap: wrap;
-      margin-top: 300px;
-      
+      flex-direction: row;
   }
-  .item {
+    .item {
       width: 50%;
-      justify-content: center;
-      align-items: center;
-
   }
-  img {
-    width: 360px; 
-    margin-left: 10px;
+    .skills-img {
+        max-width: 50%;
   }
-  .skills-img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    
-  }
-  .last-p {
+    .last-p {
       margin: 16px 75px;
   }
-  .short-text {
+    .short-text {
       display: none;
   }
-  .full-text {
+    .full-text {
       display: flex;
       justify-content: center;
       margin-top: 0;
       margin-bottom: 40px;
   }
-  #portfolio {
-    block-size: auto;
-    position: relative;
-    margin-top: 150px;
-    text-align: center;
-    top: 250px;
-    
-    }
+  .name {
+      font-size: 16px;
+  }
+
 }
 @media screen and (min-width: 1024px) {
     /* .main-header {
@@ -173,31 +195,24 @@ footer {
         flex-direction: row;
         flex: 1;
     } */
-    .box-p{
-        box-sizing: border-box;
-        font-size: 18px;
-        text-align: left;
-        margin-left: 15px;
-    }
     .flex {
         display: flex;
         justify-content: space-between;
+        align-items: stretch;
     }
-    h1 {
+    .main-header {
         padding: 0;
         margin-left: 25px;
-        margin-top: 35px;
     }
     .start {
         margin-top: 20px;
-    }
+    } 
     .list {
         font-size: 16px;
     }
     .container {
         display: flex;
         flex-wrap: wrap;
-        margin-top: 300px;
         flex: 1;
     }
     .item {
@@ -205,11 +220,7 @@ footer {
         justify-content: center;
         align-items: center;
     }
-    #portfolio {
-        margin-left: auto;
-        margin-right: auto;
-        width: 50%;
-  }
+    
     img {
       width: 300px;
       margin-left: auto;
