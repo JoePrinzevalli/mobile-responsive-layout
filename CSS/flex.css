@@ -18,6 +18,9 @@ footer {
     display: flex;
     justify-content: space-between;
 }
+.profile {
+    margin: auto;
+}
 
 /* Media Queries */
 @media screen and (min-width: 320px) {
@@ -41,11 +44,12 @@ footer {
   .list {
       background: none; 
   }
+  .flex-profile {
+      display: flex;
+      justify-content: space-evenly;
+  }
   .profile {
-      float: right;
-      margin-top: 5px;
-      text-align: left;
-      width: 250px;
+      order: 2;
   }
   .container {
       display: flex;
@@ -131,10 +135,6 @@ footer {
         width: 33%;
         justify-content: center;
         align-items: center;
-    }
-    .profile {
-        position: relative;
-        top: -30px; 
     }
     #portfolio {
         margin-left: auto;
