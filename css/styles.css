@@ -31,6 +31,15 @@ ul {
     padding: 0;
     font-weight: bold;
 }
+ul li {
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    padding: 10px 20px;
+    background: white;
+    text-transform: uppercase;
+    text-align: center;
+    }
 .list {
     font-size: 12px;
     color: olive;
@@ -57,6 +66,10 @@ p {
 }
 
 .contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     block-size: auto;
     text-align: center;  
 }
@@ -75,6 +88,131 @@ a {
 }
 footer {
     border-top: 2px solid darkgrey;
+    display: flex;
+    justify-content: space-between;
 }
 
+ .full-text {
+        display: none;
+    }
+    
+/* Media Queries */
 
+@media screen and (min-width: 768px) {
+   .box-p {
+        box-sizing: border-box;
+        font-size: 18px;
+        text-align: left;
+        margin-left: 15px;
+    }
+  .start {
+      display: flex;
+      justify-content: center; 
+      margin-bottom: 50px;
+  }  
+  .list {
+      background: none; 
+  }
+  .flex-profile {
+      display: flex;
+      justify-content: space-evenly;
+  }
+  .profile {
+      order: 2;
+  }
+  .container {
+      display: flex;
+      flex-wrap: wrap;
+      margin-top: 300px;
+      
+  }
+  .item {
+      width: 50%;
+      justify-content: center;
+      align-items: center;
+
+  }
+  img {
+    width: 360px; 
+    margin-left: 10px;
+  }
+  .skills-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+  }
+  .last-p {
+      margin: 16px 75px;
+  }
+  .short-text {
+      display: none;
+  }
+  .full-text {
+      display: flex;
+      justify-content: center;
+      margin-top: 0;
+      margin-bottom: 40px;
+  }
+  #portfolio {
+    block-size: auto;
+    position: relative;
+    margin-top: 150px;
+    text-align: center;
+    top: 250px;
+    
+    }
+}
+@media screen and (min-width: 1024px) {
+    /* .main-header {
+        display: flex;
+        flex-direction: row;
+    }  
+    .start {
+        display: flex;
+        flex-direction: row;
+        flex: 1;
+    } */
+    .box-p{
+        box-sizing: border-box;
+        font-size: 18px;
+        text-align: left;
+        margin-left: 15px;
+    }
+    .flex {
+        display: flex;
+        justify-content: space-between;
+    }
+    h1 {
+        padding: 0;
+        margin-left: 25px;
+        margin-top: 35px;
+    }
+    .start {
+        margin-top: 20px;
+    }
+    .list {
+        font-size: 16px;
+    }
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 300px;
+        flex: 1;
+    }
+    .item {
+        width: 33%;
+        justify-content: center;
+        align-items: center;
+    }
+    #portfolio {
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+  }
+    img {
+      width: 300px;
+      margin-left: auto;
+      margin-right: auto;
+  }
+}
