@@ -45,7 +45,7 @@ p {
 }
 .profile {
     margin: auto;
-    max-width: 50%;
+    max-width: 60%;
 }
 .flex-portfolio {
     display: flex;
@@ -61,6 +61,10 @@ img {
 }                      /* not too sure why img and .item center the images */
 .item {
     text-align: center;  
+}
+.paragraph {
+    margin-left: 20px;
+    margin-right: 20px;
 }
 .image-7 {
     display: flex;
@@ -163,13 +167,10 @@ footer {
   }
     .item {
       width: 50%;
-      margin-top: auto;
       margin-bottom: auto;
   }
     .paragraph {
-      text-align: center;
-      margin-left: 20px;
-      margin-right: 20px;
+      text-align: center; 
   }
     .skills-img {
         max-width: 50%;
