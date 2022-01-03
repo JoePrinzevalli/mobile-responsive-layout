@@ -31,6 +31,10 @@ h3 {
 p {
     text-align: center;
 }
+.last-p {
+    margin-right: 10px;
+    margin-left: 10px;
+}
 
 /* --Flexbox styles-- */
 .flex-profile {
